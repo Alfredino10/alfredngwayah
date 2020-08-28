@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header class="site-head">
+        <nav class="site-nav">
+            <button id="navbtn"><i class="fa fa-align-justify"></i> Menu</button>
+            <ul class="topNav">
+                <li><a href="#"><i class='fas fa-camera-retro'></i></i> Gallery</a> </li>
+                <li> <a href="aboutme.html"><i class='fas fa-book'></i> About-Me</a> </li>
+                <li> <a href="#"><i class='fas fa-code-branch'></i> Projects</a> </li>
+                <li> <a href="tutorials.html"><i class='fas fa-code'></i> Tutorials</a> </li>
+                
+            </ul>
+            
+        </nav>
+    </header>
+    <main>
+        <img src="alfred2.jpg" alt="alfred2" id="img2" />
+        <section id="first-sec">
+            <header>
+                <h1>Welcome!!</h1>
+            </header>
+
+            <div id="first-flex">
+                <section class="info-sec" id="info1">
+                    <div>
+                        <h1>I'm Alfred Ngwayah</h1>
+                        <h3>A front end web developer</h3>
+                    </div>
+                </section>
+
+                <section class="info-sec" id="info2">
+                    <img src="computer.png" alt="computer" />
+                </section>
+            </div>
+        </section>
+
+        <section id="second-sec">
+            <div id="languages">
+                <h3><span class="h"> H</span><span class="t"> T </span> <span class="m">M</span> <span
+                        class="l">L</span> </h3>
+                <h3><span class="h"> C </span> <span class="p">S</span> <span class="t"> S </span></h3>
+                <h3><span class="h"> J </span> <span class="a">A</span> <span class="t"> V </span> <span class="a"> A
+                    </span> <span class="m">S</span> <span class="c">C</span> <span class="r">R</span> <span class="i">
+                        I </span> <span class="p"> P </span> <span class="t"> T </span> </h3>
+            </div>
+
+            <div id="webinfo">
+                <header>
+                    <h3>Web Development</h3>
+                </header>
+                <p>Web development is the work involved in developing a Web site for the Internet (World Wide Web) or an
+                    intranet (a private network). Web development can range from developing a simple single static
+                    page of plain text to complex Web-based Internet applications (Web apps), electronic businesses, and
+                    social network services. A more comprehensive list of tasks to which Web development commonly
+                    refers, may include Web engineering, Web design, Web content development, client liaison,
+                    client-side/server-side scripting, Web server and network security configuration, and e-commerce
+                    development.</p>
+                <a href="#">See More <i class='fas fa-angle-double-right'></i></a>
+            </div>
+        </section>
+
+        <section id="projects">
+            <header>
+                <h1>Projects Previously Done</h1>
+            </header>
+
+            <section>
+                <div>
+                    <a href="#">
+                        <img src="portfolio.png" alt="jobimg" />
+                        <p><code> &lt; </code>Portfolio<code> /> </code></p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="documentation.jpg" alt="jobimg" />
+                        <p><code> &lt; </code> Documentation<code> /> </code></p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="forms.jpg" alt="jobimg" />
+                        <p><code> &lt; </code> Forms<code> /> </code></p>
+                    </a>
+                </div>
+            </section>
+
+        </section>
+        <section id="tutorialcont">
+            <header>
+                <h1>Tutorials</h1>
+            </header>
+            <section id="tutorials">
+
+                <div>
+                    <a href="#">
+                        <p><i class='fas fa-desktop'></i></p>
+                        <p>Front End</p>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="#">
+                        <p><i class='fas fa-code'></i></p>
+                        <p>Back End</p>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="#">
+                        <p><i class='fas fa-code-branch'></i></p>
+                        <P>Databases</P>
+                    </a>
+                </div>
+            </section>
+
+            <section id="signup">
+                <div>
+                    <p><i class="fa fa-users"></i></p>
+                </div>
+                <div>
+                    <header>
+                        <h2>Hey are you ready to receive tutorials links from me? <br /> Sign up now for free</h2>
+                    </header>
+                    <form method="POST" action="#">
+                        <ul>
+                            <li> <label for="firstname">
+                                    <input type="text" placeholder="First Name" id="firstname" name="userFirstName"
+                                        required />
+                                </label> </li>
+                            <li> <label for="lastname">
+                                    <input type="text" placeholder="Last Name" id="lastname" name="userLastName"
+                                        required />
+                                </label> </li>
+
+                            <li><label for="email"><input type="email" placeholder="Email" name="userEmail" id="email"
+                                        required /> </label> </li>
+                            <li><button type="submit">Sign Up</button> </li>
+                        </ul>
+                    </form>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div id="footdiv">
+            <section>
+                <header>
+                    <h1>Quick links</h1>
+                </header>
+                <ul>
+                    <li><a href="#"><i class='fab fa-github'></i> GitHub</a></li>
+                    <li><a href="#"><i class='fab fa-codepen'></i> CodePen</a></li>
+                    <li><a href="#"><i class='fab fa-facebook'></i> FaceBook</a></li>
+                </ul>
+            </section>
+            <section>
+                <header>
+                    <h1>Contacts</h1>
+                </header>
+                <ul>
+                    <li>
+                        <p>+231-775-311-159</p>
+                    </li>
+                    <li>
+                        <p>+231-880-874-235</p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <P>&copy;Copyright at ALfred Ngwayah 2020</P>
+    </footer>
+</body>
+
+</html>

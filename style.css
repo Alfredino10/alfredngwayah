@@ -138,7 +138,7 @@ img {
     background-color: rgb(34, 32, 189);
     padding: 50px 10px;
 }
-#info1 h1 {
+#info1 h2 {
     font-size: 2.5em;
 }
 #info1 h3 {
@@ -418,7 +418,16 @@ footer li {
     font-size: 1.2em;
 }
 footer a:hover {
+    
     color: white;
+}
+.screenReadHead {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+    overflow: hidden;
 }
 
 

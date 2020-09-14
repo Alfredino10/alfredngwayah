@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <meta name="google-site-verification" content="eYrc-T4xdVWTC4FpqJYRJLzESYzVnPUWuqh4MQuNttM" />
-     <meta name="authot" content="Alfred Ngwayah">
-     <meta name="description" content="Alfred Ngwayah portfolio page for front end web development. alfred ngwayah html css and javascript page for free tutorials " >
-     <meta name="keywords" content="Alfred Ngwayah, Alfred, Ngwayah, alfred ngwayah, free tutorials, Alfred Portfolio" >
+    <meta name="authot" content="Alfred Ngwayah">
+    <meta name="description"
+        content="Alfred Ngwayah portfolio page for front end web development. alfred ngwayah html css and javascript page for free tutorials ">
+    <meta name="keywords" content="Alfred Ngwayah, Alfred, Ngwayah, alfred ngwayah, free tutorials, Alfred Portfolio">
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -18,51 +19,82 @@
 </head>
 
 <body>
-    <header class="site-head">
+    <header class="site-head" id="site-head">
         <nav class="site-nav">
-            <button id="navbtn"><i class="fa fa-align-justify"></i> Menu</button>
-            <ul class="topNav">
-                <li><a href="#"><i class='fas fa-camera-retro'></i> Gallery</a> </li>
+            <div class="logo">
+                <a href="index.html"> <img src="images/myl.png" alt="Our-logo" /> </a>
+                <button class="navbtn" id="navbtn"><i class="fa fa-align-justify"></i> Menu</button>
+            </div>
+            <ul class="top-nav">
+                <li><a href="gallary.html"><i class='fas fa-camera-retro'></i> Gallery</a> </li>
                 <li> <a href="aboutme.html"><i class='fas fa-book'></i> About-Me</a> </li>
                 <li> <a href="#"><i class='fas fa-code-branch'></i> Projects</a> </li>
                 <li> <a href="tutorials.html"><i class='fas fa-code'></i> Tutorials</a> </li>
-                
+
             </ul>
-            
+
         </nav>
     </header>
     <main>
         <img src="alfred2.jpg" alt="alfred2" id="img2" />
         <section id="first-sec">
-            <header>
-                <h1>Welcome!!</h1>
-            </header>
-
-            <div id="first-flex">
-                <section class="info-sec" id="info1">
-                    <div>
-                        <h2>I'm Alfred Ngwayah</h2>
-                        <h3>A front end web developer</h3>
-                    </div>
-                </section>
-
-                <section class="info-sec" id="info2">
-                    <img src="computer.png" alt="computer" />
-                </section>
+            <div id="alfred-info-container">
+                <img src="images/alfred.jpg" alt="Alfred" id="alfred-pic-one"/>
+                <h2>I'm Alfred Ngwayah</h2>
+                <h3>A front end web developer</h3>
+                <ul id="alfred-social-links">
+                    <li><a href="#"><img src="images/github.png" alt="github" /> </a></li>
+                    <li><a href="#"><img src="images/codepen.png" alt="codepen" /> </a></li>
+                    <li><a href="#"><img src="images/facebook.png" alt="facebook" /> </a></li>
+                    <li><a href="#"><img src="images/instagram-sketched.png" alt="instagram" /> </a></li>
+                    <li><a href="#"><img src="images/whatsapp.png" alt="whatsapp" /> </a></li>
+                </ul>
             </div>
         </section>
 
         <section id="second-sec">
-            <div id="languages">
-                <h3><span class="h"> H</span><span class="t"> T </span> <span class="m">M</span> <span
-                        class="l">L</span> </h3>
-                <h3><span class="h"> C </span> <span class="p">S</span> <span class="t"> S </span></h3>
-                <h3><span class="h"> J </span> <span class="a">A</span> <span class="t"> V </span> <span class="a"> A
-                    </span> <span class="m">S</span> <span class="c">C</span> <span class="r">R</span> <span class="i">
-                        I </span> <span class="p"> P </span> <span class="t"> T </span> </h3>
+            <div id="greetings">
+                <div id="greeting-head">
+                    <h1 class="greet greet1"><span id="greet-span1">Web Development Is Fun..</span> <br /> <span
+                            id="greet-span2"> Put Your Pieces Together And Get The Code Rolling..</span></h1>
+                    <a href="#" id="greet-a">Get Started <i class='fas fa-arrow-right'></i></a>
+                </div>
+                <div id="greeting-img"><img src="images/kul.gif" alt="animation gif" class="greet greet2" /></div>
             </div>
 
             <div id="webinfo">
+                <div>
+                    <img src="images/html.png" alt="html" />
+                    <p>Web development is the work involved in developing a Web site for the Internet (World Wide Web)
+                        or an
+                        intranet (a private network). Web development can range from developing a simple single static
+                        page of plain text to complex Web-based</p>
+                    <a href="#">See More <i class='fas fa-angle-double-right'></i></a>
+
+                </div>
+                <div>
+                    <img src="images/css-file.png" alt="css" />
+                    <p>Web development is the work involved in developing a Web site for the Internet (World Wide Web)
+                        or an
+                        intranet (a private network). Web development can range from developing a simple single static
+                        page of plain text to complex Web-based</p>
+                    <a href="#">See More <i class='fas fa-angle-double-right'></i></a>
+                </div>
+                <div>
+                    <img src="images/javascript.png" alt="javascript" />
+                    <p>Web development is the work involved in developing a Web site for the Internet (World Wide Web)
+                        or an
+                        intranet (a private network). Web development can range from developing a simple single static
+                        page of plain text to complex Web-based</p>
+                    <a href="#">See More <i class='fas fa-angle-double-right'></i></a>
+                </div>
+
+            </div>
+
+            <div id="web-development">
+               <div> <iframe src="https://www.youtube.com/embed/f7DcY8CY6TY" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe></div>
                 <header>
                     <h3>Web Development</h3>
                 </header>
@@ -79,95 +111,157 @@
 
         <section id="projects">
             <header>
-                <h1>Projects Previously Done</h1>
+                <h2>Web Technologies</h2>
             </header>
+            <hr />
+            <div id="web-tech">
+                <h3>
+                    1. Browsers
+                </h3>
+                <ol>
+                    <li><a href="#"> Chrome</a></li>
+                    <li><a href="#"> Safari</a></li>
+                    <li><a href="#"> Firefox</a></li>
+                    <li><a href="#"> Internet Explorer</a></li>
+                </ol>
+                <h3>2. HTML</h3>
+                <ol>
+                    <li><a href="#"> HTML</a></li>
+                </ol>
 
-            <section>
-                <h2 class="screenReadHead">Jobs Previously done</h2>
-                <div>
-                    <a href="#">
-                        <img src="portfolio.png" alt="jobimg" />
-                        <p><code> &lt; </code>Portfolio<code> /> </code></p>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <img src="documentation.jpg" alt="jobimg" />
-                        <p><code> &lt; </code> Documentation<code> /> </code></p>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <img src="forms.jpg" alt="jobimg" />
-                        <p><code> &lt; </code> Forms<code> /> </code></p>
-                    </a>
-                </div>
-            </section>
+                <h3>3. CSS</h3>
+                <ol>
+                    <li><a href="#"> LESS</a></li>
+                    <li><a href="#"> SASS</a></li>
+                </ol>
+                <h3>4. Programming Languages</h3>
+                <ol>
+                    <li><a href="#">Javascript</a></li>
+                    <li><a href="#">CoffeScript</a></li>
+                    <li><a href="#">Python</a></li>
+                    <li><a href="#">Ruby</a></li>
+                    <li><a href="#"> PHP</a></li>
+                    <li><a href="#"> GO</a></li>
+                    <li><a href="#"> Objective - C</a></li>
+                    <li><a href="#"> Swift</a></li>
+                    <li><a href="#">Java</a></li>
+                </ol>
+
+                <h3>5. Frameworks</h3>
+                <ol>
+                    <li><a href="#">Node.js</a></li>
+                    <li><a href="#"> Ruby on Rails</a></li>
+                    <li><a href="#"> Django</a></li>
+                    <li><a href="#"> Ionic</a></li>
+                    <li><a href="#"> Bootstrap</a></li>
+                    <li><a href="#"> Foundation</a></li>
+                    <li><a href="#"> Wordpress</a></li>
+                    <li><a href="#"> Drupal</a></li>
+                    <li><a href="#"> .NET</a></li>
+                    <li><a href="#"> Angular.js</a></li>
+                    <li><a href="#"> Ember.js</a></li>
+                    <li><a href="#"> Backbone.js</a></li>
+                </ol>
+                <h3>6. Libraries</h3>
+                <ol>
+                    <li><a href="#">JQuery</a></li>
+                    <li><a href="#"> Underscore</a></li>
+                </ol>
+                <h3>7. Databases</h3>
+                <ol>
+                    <li><a href="#"> MongoDB</a></li>
+                    <li><a href="#"> Redis</a></li>
+                    <li><a href="#"> PostgreSQL</a></li>
+                    <li><a href="#"> MySQL</a></li>
+                    <li><a href="#"> Oracle</a></li>
+                    <li><a href="#"> SQL-Server</a></li>
+                </ol>
+            </div>
+        </section>
 
         </section>
         <section id="tutorialcont">
             <header>
-                <h1>Tutorials</h1>
+                <h2>Tutorials</h2>
             </header>
+            <hr />
             <section id="tutorials">
                 <h2 class="screenReadHead">Tutorials</h2>
 
                 <div>
                     <a href="#">
-                        <p><i class='fas fa-desktop'></i></p>
-                        <p>Front End</p>
+                        <img src="images/ux.png" alt="frontend" />
+                        <p>Learn Front End <i class='fas fa-arrow-right'></i></p>
                     </a>
                 </div>
 
                 <div>
                     <a href="#">
-                        <p><i class='fas fa-code'></i></p>
-                        <p>Back End</p>
+                        <img src="images/backend.png" alt="backend" />
+                        <p>Learn Back End <i class='fas fa-arrow-right'></i></p>
                     </a>
                 </div>
 
                 <div>
                     <a href="#">
-                        <p><i class='fas fa-code-branch'></i></p>
-                        <P>Databases</P>
+                        <img src="images/maintenance.png" alt="databases" />
+                        <P>Learn Databases <i class='fas fa-arrow-right'></i></P>
                     </a>
                 </div>
             </section>
 
             <section id="signup">
-                <div>
-                    <p><i class="fa fa-users"></i></p>
-                </div>
-                <div>
-                    <header>
-                        <h2>Hey are you ready to receive tutorials links from me? <br /> Sign up now for free</h2>
-                    </header>
-                    <form method="POST" action="#">
-                        <ul>
-                            <li> <label for="firstname">
-                                    <input type="text" placeholder="First Name" id="firstname" name="userFirstName"
-                                        required />
-                                </label> </li>
-                            <li> <label for="lastname">
-                                    <input type="text" placeholder="Last Name" id="lastname" name="userLastName"
-                                        required />
-                                </label> </li>
 
-                            <li><label for="email"><input type="email" placeholder="Email" name="userEmail" id="email"
-                                        required /> </label> </li>
-                            <li><button type="submit">Sign Up</button> </li>
-                        </ul>
-                    </form>
-                </div>
+              <h2>Sign Up For Our Newsletter</h2>
+              <hr />
+
+                <form method="POST" action="#">
+                    <ul>
+                        <li>
+                            <ul id="sign-up-names">
+                                <li><label for="firstname">
+                                        <input type="text" placeholder="First Name" id="firstname" name="userFirstName"
+                                            required />
+                                    </label></li>
+                                <li>
+                                    <label for="lastname">
+                                        <input type="text" placeholder="Last Name" id="lastname" name="userLastName"
+                                            required />
+                                    </label>
+                                </li>
+                            </ul>
+
+                        </li>
+
+
+                        <li id="sign-up-mail"><label for="email"><input type="email" placeholder="Email"
+                                    name="userEmail" id="email" required /> </label> </li>
+                                    <li><textarea placeholder="Say something.."></textarea></li>
+                        <li><button type="submit">Sign Up <i class='fas fa-lock-open'></i></button> </li>
+                    </ul>
+                </form>
+
             </section>
         </section>
     </main>
+    <aside id="home-aside">
+        <section id="social-links">
+            <ul>
+                <li><a href="#"><img src="images/github.png" alt="github" /> </a></li>
+                <li><a href="#"><img src="images/codepen.png" alt="codepen" /> </a></li>
+                <li><a href="#"><img src="images/facebook.png" alt="facebook" /> </a></li>
+                <li><a href="#"><img src="images/instagram-sketched.png" alt="instagram" /> </a></li>
+                <li><a href="#"><img src="images/whatsapp.png" alt="whatsapp" /> </a></li>
+            </ul>
+        </section>
+        <div id="to-top"><a href="index.html#first-sec"><i class="fa fa-arrow-up"></i></a></div>
+    </aside>
     <footer>
         <div id="footdiv">
             <section>
-                
-                    <h1>Quick links</h1>
-                
+
+                <h1>Quick links</h1>
+
                 <ul>
                     <li><a href="#"><i class='fab fa-github'></i> GitHub</a></li>
                     <li><a href="#"><i class='fab fa-codepen'></i> CodePen</a></li>
@@ -175,15 +269,15 @@
                 </ul>
             </section>
             <section>
-                
-                    <h1>Contacts</h1>
-                
+
+                <h1>Contacts</h1>
+
                 <ul>
                     <li>
-                        <p>+231-775-311-159</p>
+                        <p><img src="images/liberia.png" alt="liberia-flag" /> +231-775-311-159</p>
                     </li>
                     <li>
-                        <p>+231-880-874-235</p>
+                        <p><img src="images/liberia.png" alt="liberia-flag" /> +231-880-874-235</p>
                     </li>
                 </ul>
             </section>
